@@ -1,49 +1,177 @@
-# Blinkit-Sales-Dashboard
-
+# 📊 Blinkit Sales Dashboard | Power BI
 
 ![Dashboard View](https://github.com/user-attachments/assets/9f6d0d1e-1f0a-48e0-ad0d-90dc484eddcb)
-<!-- Replace with the correct link -->
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Data Sources](#data-sources)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
+## 📌 Project Overview
 
+The **Blinkit Sales Dashboard** is an interactive **Power BI data visualization and analytics project** designed to analyze grocery sales performance and generate meaningful business insights.
+
+The dashboard transforms raw sales data into interactive reports covering **sales performance, product categories, outlet characteristics, customer ratings, and key business KPIs**.
+
+This project demonstrates practical skills in **data cleaning, data transformation, data analysis, KPI development, and interactive dashboard design**.
 
 ---
 
-## Project Overview
+## 🎯 Objectives
 
-The **Blinkit Sales Dashboard** is a comprehensive visualization tool designed to help track and analyze Blinkit’s sales data. Developed using **Power BI**, this dashboard enables stakeholders to monitor key sales metrics, such as total sales, number of items sold, average rating, and sales by various outlet sizes and locations. This helps in identifying patterns and making data-driven decisions.
+- Analyze overall sales performance.
+- Identify high-performing product categories.
+- Compare sales across different outlet types and sizes.
+- Analyze sales across Tier 1, Tier 2, and Tier 3 locations.
+- Understand sales trends over time.
+- Analyze sales based on item fat content.
+- Present business insights through interactive visualizations.
 
-## Features
+---
 
-- **Total Sales and Key Metrics:** Displays crucial KPIs such as total sales ($1.19M), number of items sold (8406), average rating (3.9), and average sales per item ($141).
-- **Sales by Item Type:** Detailed breakdown of total sales for different item categories such as fruits, snacks, and household items.
-- **Sales by Outlet Size and Location:** Visualization of sales based on outlet size (small, medium, large) and outlet location (Tier 1, Tier 2, Tier 3 cities).
-- **Time-based Sales Analysis:** Graph showing sales trends from 2012 to 2022, highlighting sales spikes.
-- **Outlet Type Performance:** Breakdown of sales and performance by outlet type, including supermarkets and grocery stores.
-- **Fat Content Sales:** Segmentation of sales based on fat content (low fat and regular).
+## 📊 Key KPIs
 
-## Data Sources
+The dashboard provides an overview of important business metrics, including:
 
-The data used for this dashboard includes:
-- **Sales Transactions:** Total revenue, number of items sold, and average sales.
-- **Outlet Data:** Data related to outlet size, location (Tier 1, Tier 2, Tier 3 cities), and outlet type.
-- **Item Data:** Sales data categorized by item type and fat content.
+- **Total Sales**
+- **Average Sales**
+- **Number of Items**
+- **Average Customer Rating**
 
-## Technologies Used
+> KPI values are calculated from the dataset included in this project.
 
-- **Power BI**: Used to create the dashboard and visualize the sales data.
-- **DAX (Data Analysis Expressions)**: Used to perform custom calculations and measures.
-- **Excel/CSV files**: Data was preprocessed and loaded into Power BI.
-- **Power Query**: For transforming and cleaning the data before analysis.
+---
 
-## Setup Instructions
+## ✨ Dashboard Features
 
-1. **Install Power BI Desktop**: You can download it from [here](https://powerbi.microsoft.com/desktop/).
-2. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/blinkit-sales-dashboard.git
+### 1. Sales Performance Analysis
+
+Analyze overall sales performance and identify trends across different business segments.
+
+### 2. Item Type Analysis
+
+Compare sales across different product categories such as:
+
+- Fruits & Vegetables
+- Snack Foods
+- Household Items
+- Frozen Foods
+- Dairy
+- Beverages
+- Other product categories
+
+### 3. Outlet Analysis
+
+Analyze performance based on:
+
+- Outlet Type
+- Outlet Size
+- Outlet Location
+- Outlet Establishment Year
+
+### 4. Location Analysis
+
+Compare sales performance across:
+
+- Tier 1 Cities
+- Tier 2 Cities
+- Tier 3 Cities
+
+### 5. Fat Content Analysis
+
+Analyze sales based on:
+
+- Low Fat
+- Regular
+
+### 6. Time-Based Analysis
+
+Analyze changes in sales performance across outlet establishment years.
+
+### 7. Interactive Dashboard
+
+The dashboard provides interactive filters and visualizations that allow users to explore different segments of the dataset.
+
+---
+
+## 🧹 Data Preparation
+
+The dataset was prepared using **Power Query** before creating the dashboard.
+
+The data preparation workflow included:
+
+1. Importing the raw Excel dataset.
+2. Inspecting data types and data quality.
+3. Cleaning and transforming the data.
+4. Handling inconsistent values where required.
+5. Preparing fields for visualization.
+6. Creating calculated measures using DAX.
+7. Designing interactive Power BI reports.
+
+---
+
+## 📁 Dataset
+
+The project uses a grocery sales dataset containing information related to:
+
+### Item Information
+- Item Type
+- Item Fat Content
+- Item Visibility
+- Item MRP
+
+### Outlet Information
+- Outlet Type
+- Outlet Size
+- Outlet Location
+- Outlet Establishment Year
+
+### Performance Information
+- Sales
+- Customer Rating
+
+Dataset:
+
+`Blinkit Grocery Data.xlsx`
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| **Power BI** | Dashboard development and data visualization |
+| **Power Query** | Data cleaning and transformation |
+| **DAX** | Calculated measures and KPI analysis |
+| **Microsoft Excel** | Dataset and data source |
+| **Data Analytics** | Business analysis and insight generation |
+
+---
+
+## 📈 Skills Demonstrated
+
+- Data Analytics
+- Data Cleaning
+- Data Transformation
+- Data Visualization
+- Power BI
+- Power Query
+- DAX
+- KPI Analysis
+- Business Intelligence
+- Dashboard Development
+- Report Management
+- Analytical Thinking
+
+---
+
+## 📂 Project Structure
+
+```text
+Blinkit-Sales-Dashboard/
+│
+├── Assets/
+│   ├── Avg Sales.png
+│   ├── background kpi.png
+│   ├── items.png
+│   ├── rating (1).png
+│   └── Sales.png
+│
+├── Blinkit Grocery Data.xlsx
+├── Dashboard View.png
+└── README.md
